@@ -7,7 +7,7 @@ imap('nh', '<Esc');
 map('u', 'f'); // open link
 map('U', 'gf'); // open link in new (inactive) tab
 
-unmapkey('<Space>');
+unmap('<Space>');
 map('<Space><Space>', '\\');
 
 Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
