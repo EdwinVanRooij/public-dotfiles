@@ -1,3 +1,7 @@
-map('u', 'f');
-map('U', 'gf');
+map('u', 'f'); // open link
+map('U', 'gf'); // open link in new (inactive) tab
 map('<Space><Space>', '\');
+
+Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
+
+settings.hintAlign = "left";
