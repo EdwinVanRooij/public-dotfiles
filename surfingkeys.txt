@@ -1,6 +1,11 @@
+// vmapkey to map only in visual mode
+// imapkey to map only in insert mode
+// iunmapkey for insert mode
+
+
 map('u', 'f'); // open link
 map('U', 'gf'); // open link in new (inactive) tab
-map('<Space><Space>', '\');
+map('<Space><Space>', '\\');
 
 Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
 
