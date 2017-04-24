@@ -16,4 +16,4 @@ Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alpha
 
 settings.hintAlign = "left";
 settings.startToShowEmoji = 0;
-settings.scrollStepSize = 90;
+settings.scrollStepSize = 120;
