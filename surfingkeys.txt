@@ -7,9 +7,13 @@ imap('nh', '<Esc>');
 map('u', 'f'); // open link
 map('U', 'gf'); // open link in new (inactive) tab
 
+map('J', 'E'); // move tab to the left
+map('K', 'R'); // move tab to the right
+
 mapkey('<Space>', '/')
 
 Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
 
 settings.hintAlign = "left";
 settings.startToShowEmoji = 0;
+settings.scrollStepSize = 90;
