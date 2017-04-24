@@ -2,13 +2,10 @@
 // imapkey to map only in insert mode
 // iunmapkey for insert mode
 // imap and iunmap for key combinations in insert mode
-imap('nh', '<Esc');
+imap('nh', '<Esc>');
 
 map('u', 'f'); // open link
 map('U', 'gf'); // open link in new (inactive) tab
-
-unmap('<Space>');
-map('<Space><Space>', '\\');
 
 Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
 
