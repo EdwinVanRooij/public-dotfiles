@@ -26,7 +26,11 @@ unmap('spb');
 unmap('sps');
 unmap('spc');
 unmap('spi');
+unmap('spd');
 unmap('sfr');
+
+// Misc
+unmap(';q');
 
 // Insert mode
 iunmap('<Ctrl-f>');
@@ -35,7 +39,7 @@ iunmap('<Alt-f>');
 iunmap('<Alt-w>');
 iunmap('<Alt-d>');
 iunmap("<Ctrl-'>");
-imap('nh', '<Esc>');
+imapkey('nh', '<Esc>');
 
 
 
