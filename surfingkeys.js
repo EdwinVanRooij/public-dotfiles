@@ -56,6 +56,7 @@ map('<Space>', '/');
 
 // --- Exceptions ---
 // todo: 9gag jk movement
+// todo: make u use q instead of f (click picture)
 
 
 // --- Unmap unused commands to prevent confusion and noise ---
