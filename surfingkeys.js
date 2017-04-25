@@ -55,17 +55,7 @@ map('<Space>', '/');
 
 
 // --- Exceptions ---
-
-// 9gag
-unmap('j', '.*9gag\.com\/$');
-unmap('k', '.*9gag\.com\/$');
-
-map('f', 'q', {domain: /9gag\.com/});
-map('u', 'q', {domain: /9gag\.com/});
-
-map('F', 'Q', {domain: /9gag\.com/});
-map('U', 'Q', {domain: /9gag\.com/});
-
+// todo: 9gag jk movement
 
 
 // --- Unmap unused commands to prevent confusion and noise ---
