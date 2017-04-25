@@ -114,7 +114,7 @@ unmap("<Ctrl-i>");
 unmap("<Ctrl-.>");
 unmap("<Ctrl-,>");
 unmap("<Ctrl-c>");
-unmap("\<Ctrl\-D\>");
+unmap("<Ctrl-D>");
 unmap("<Ctrl-n>");
 unmap("<Ctrl-p>");
 
