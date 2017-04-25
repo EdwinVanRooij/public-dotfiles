@@ -1,18 +1,20 @@
-// vmapkey to map only in visual mode
-// imapkey to map only in insert mode
-// iunmapkey for insert mode
-// imap and iunmap for key combinations in insert mode
-imap('nh', '<Esc>');
+// Open links
+map('u', 'f');
+map('U', 'gf');
 
-map('u', 'f'); // open link
-map('U', 'gf'); // open link in new (inactive) tab
+// More confortable tab movement
+map('J', 'E');
+map('K', 'R');
 
-map('J', 'E'); // move tab to the left
-map('K', 'R'); // move tab to the right
+// Tab history management
+map('h', 'S');
+map('l', 'D');
 
+// Search with space
 map('<Space>', '/');
 
-Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
+// all Dvorak first and second row alphabetic characters
+Hints.characters = 'aoeuidhtnspyfgcrl';
 
 settings.hintAlign = "left";
 settings.startToShowEmoji = 0;
