@@ -13,6 +13,8 @@ map('l', 'D');
 // Search with space
 map('<Space>', '/');
 
+imap('nh', '<Escape>');
+
 // all Dvorak first and second row alphabetic characters
 Hints.characters = 'aoeuidhtnspyfgcrl';
 
