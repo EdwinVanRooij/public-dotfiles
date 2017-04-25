@@ -9,6 +9,12 @@ Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alpha
 
 // --- Own mappings ---
 
+// VIM editor mappings
+aceVimMap('nh', '<Esc>', 'insert');
+aceVimMap('<Space>c', 'ciw', 'normal');
+aceVimMap('H', '0', 'normal');
+aceVimMap('L', '$', 'normal');
+
 // Open links
 map('u', 'f');
 unmap('f');
@@ -45,6 +51,9 @@ unmap('D');
 
 // Search with space
 map('<Space>', '/');
+
+// Exceptions
+unmap('jk', 
 
 
 
