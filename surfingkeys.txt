@@ -1,9 +1,34 @@
-// General settings
-settings.hintAlign = "left";
-settings.startToShowEmoji = 0;
-settings.scrollStepSize = 120;
+// --- General settings ---
 
-// Unmap unused insert mode commands
+settings.hintAlign = "left";
+settings.startToShowEmoji = 1;
+settings.scrollStepSize = 120; // faster 'jk' scrolling
+Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
+
+
+
+// --- Unmap unused commands to prevent confusion and noise ---
+
+// Chrome URLs
+unmap(';j');
+unmap('si');
+unmap('ga');
+unmap('gc');
+unmap('gk');
+unmap('gn');
+
+// Proxy
+unmap('cp');
+unmap(';cp');
+unmap(';ap');
+unmap('spa');
+unmap('spb');
+unmap('sps');
+unmap('spc');
+unmap('spi');
+unmap('sfr');
+
+// Insert mode
 iunmap('<Ctrl-f>');
 iunmap('<Alt-b>');
 iunmap('<Alt-f>');
@@ -11,6 +36,10 @@ iunmap('<Alt-w>');
 iunmap('<Alt-d>');
 iunmap("<Ctrl-'>");
 imap('nh', '<Esc>');
+
+
+
+// --- Own mappings ---
 
 // Open links
 map('u', 'f');
@@ -37,6 +66,3 @@ map('l', 'D');
 
 // Search with space
 map('<Space>', '/');
-
-// all Dvorak first and second row alphabetic characters
-Hints.characters = 'aoeuidhtnspyfgcrl';
