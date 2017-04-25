@@ -52,8 +52,12 @@ unmap('D');
 // Search with space
 map('<Space>', '/');
 
-// Exceptions
-// unmap('jk', 
+
+
+// --- Exceptions ---
+// 9gag
+mapkey('u', 'Click a picture', 'Front.chooseTab()', {domain: /9gag\.com/});
+mapkey('U', 'Click a picture for the background', 'Front.chooseTab()', {domain: /9gag\.com/});
 
 
 
@@ -105,14 +109,14 @@ unmap('ab');
 unmap('ob');
 unmap('ow');
 unmap('H');
-unmap('<Ctrl-d>');
-unmap('<Ctrl-i>');
-unmap('<Ctrl-.>');
-unmap('<Ctrl-,>');
-unmap('<Ctrl-c>');
-unmap('<Ctrl-D>');
-unmap('<Ctrl-n>');
-unmap('<Ctrl-p>');
+unmap("<Ctrl-d>");
+unmap("<Ctrl-i>");
+unmap("<Ctrl-.>");
+unmap("<Ctrl-,>");
+unmap("<Ctrl-c>");
+unmap("<Ctrl-D>");
+unmap("<Ctrl-n>");
+unmap("<Ctrl-p>");
 
 // Chrome URLs
 unmap(';j');
