@@ -57,8 +57,8 @@ map('<Space>', '/');
 // --- Exceptions ---
 
 // 9gag
-unmap('j', {domain: /9gag\.com/});
-unmap('k', {domain: /9gag\.com/});
+unmap('j', '.*9gag\.com\/$');
+unmap('k', '.*9gag\.com\/$');
 
 map('f', 'q', {domain: /9gag\.com/});
 map('u', 'q', {domain: /9gag\.com/});
