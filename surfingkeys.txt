@@ -9,6 +9,12 @@ Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alpha
 
 // --- Unmap unused commands to prevent confusion and noise ---
 
+// Help
+unmap('sql');
+
+// Mouse click
+unmap(';m');
+
 // Chrome URLs
 unmap(';j');
 unmap('si');
@@ -29,6 +35,7 @@ unmap('spi');
 unmap('spd');
 unmap('sfr');
 
+
 // Misc
 unmap(';q');
 
@@ -46,11 +53,17 @@ imapkey('nh', '<Esc>');
 // --- Own mappings ---
 
 // Open links
-map('u', 'f');
-map('U', 'af');
 unmap('f');
+map('u', 'f');
+
 unmap('af');
+map('U', 'af');
+
 unmap('gf');
+map('gu', 'gf');
+
+unmap('cf');
+map('cu', 'cf');
 
 // More natural previous/back navigation
 unmap('>>');
