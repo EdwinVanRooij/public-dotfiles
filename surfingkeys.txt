@@ -6,6 +6,8 @@ unmap('af');
 unmap('gf');
 
 // More natural previous/back navigation
+unmap('>>');
+unmap('<<');
 map('>', ']]');
 map('<', '[[');
 unmap('[[');
