@@ -58,7 +58,9 @@ unmap('gx0');
 unmap('gxt');
 unmap('gxT');
 unmap('gx$');
-unmap('on');
+unmap('E');
+unmap('R');
+unmap('<Alt-p>');
 unmap('on');
 unmap('W');
 
