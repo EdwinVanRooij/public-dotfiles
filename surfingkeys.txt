@@ -1,3 +1,17 @@
+// General settings
+settings.hintAlign = "left";
+settings.startToShowEmoji = 0;
+settings.scrollStepSize = 120;
+
+// Unmap unused insert mode commands
+iunmap('<Ctrl-f>');
+iunmap('<Alt-b>');
+iunmap('<Alt-f>');
+iunmap('<Alt-w>');
+iunmap('<Alt-d>');
+iunmap("<Ctrl-'>");
+imap('nh', '<Esc>');
+
 // Open links
 map('u', 'f');
 map('U', 'af');
@@ -26,7 +40,3 @@ map('<Space>', '/');
 
 // all Dvorak first and second row alphabetic characters
 Hints.characters = 'aoeuidhtnspyfgcrl';
-
-settings.hintAlign = "left";
-settings.startToShowEmoji = 0;
-settings.scrollStepSize = 120;
