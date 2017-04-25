@@ -7,6 +7,42 @@ Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alpha
 
 
 
+// --- Own mappings ---
+
+// Open links
+map('u', 'f');
+unmap('f');
+
+map('U', 'af');
+unmap('af');
+
+map('gu', 'gf');
+unmap('gf');
+
+map('cu', 'cf');
+unmap('cf');
+
+// More natural previous/back navigation
+unmap('>>');
+unmap('<<');
+map('>', ']]');
+map('<', '[[');
+unmap('[[');
+unmap(']]');
+
+// More confortable tab movement
+map('J', 'E');
+map('K', 'R');
+
+// Tab history management
+map('h', 'S');
+map('l', 'D');
+
+// Search with space
+map('<Space>', '/');
+
+
+
 // --- Unmap unused commands to prevent confusion and noise ---
 
 // Help
@@ -48,38 +84,3 @@ iunmap('<Alt-d>');
 iunmap("<Ctrl-'>");
 imapkey('nh', '<Esc>');
 
-
-
-// --- Own mappings ---
-
-// Open links
-map('u', 'f');
-unmap('f');
-
-unmap('af');
-map('U', 'af');
-
-unmap('gf');
-map('gu', 'gf');
-
-unmap('cf');
-map('cu', 'cf');
-
-// More natural previous/back navigation
-unmap('>>');
-unmap('<<');
-map('>', ']]');
-map('<', '[[');
-unmap('[[');
-unmap(']]');
-
-// More confortable tab movement
-map('J', 'E');
-map('K', 'R');
-
-// Tab history management
-map('h', 'S');
-map('l', 'D');
-
-// Search with space
-map('<Space>', '/');
