@@ -53,8 +53,8 @@ imapkey('nh', '<Esc>');
 // --- Own mappings ---
 
 // Open links
-unmap('f');
 map('u', 'f');
+unmap('f');
 
 unmap('af');
 map('U', 'af');
