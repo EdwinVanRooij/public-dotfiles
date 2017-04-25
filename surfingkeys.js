@@ -23,7 +23,7 @@ map('cu', 'cf');
 unmap('cf');
 
 // Search selected
-vmap('s', 'sg');
+vmapkey('s', 'sg');
 
 // More natural previous/back navigation
 unmap('>>');
