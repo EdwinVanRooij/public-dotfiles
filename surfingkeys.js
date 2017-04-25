@@ -48,7 +48,7 @@ map('<Space>', '/');
 // Help
 unmap('sql');
 
-// Mouse click
+// Mouse Click
 unmap(';m');
 
 // Tabs
@@ -63,6 +63,8 @@ unmap('R');
 unmap('<Alt-p>');
 unmap('on');
 unmap('W');
+
+// Page Navigation
 
 // Chrome URLs
 unmap(';j');
