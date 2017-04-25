@@ -56,8 +56,8 @@ map('<Space>', '/');
 
 // --- Exceptions ---
 // 9gag
-mapkey('u', 'Click a picture', 'Front.chooseTab()', {domain: /9gag\.com/});
-mapkey('U', 'Click a picture for the background', 'Front.chooseTab()', {domain: /9gag\.com/});
+map('u', 'q', {domain: /9gag\.com/});
+map('U', 'Q', {domain: /9gag\.com/});
 
 
 
