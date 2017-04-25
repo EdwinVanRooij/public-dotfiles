@@ -22,6 +22,9 @@ unmap('gf');
 map('cu', 'cf');
 unmap('cf');
 
+// Search selected
+map('s', 'sg');
+
 // More natural previous/back navigation
 unmap('>>');
 unmap('<<');
@@ -36,7 +39,10 @@ map('K', 'R');
 
 // Tab history management
 map('h', 'S');
+unmap('S');
+
 map('l', 'D');
+unmap('D');
 
 // Search with space
 map('<Space>', '/');
@@ -65,6 +71,18 @@ unmap('on');
 unmap('W');
 
 // Page Navigation
+unmap('gT');
+unmap('gt');
+unmap('g?');
+unmap('B');
+unmap('F');
+
+// Search selected with
+unmap('sd');
+unmap('sb');
+unmap('sw');
+unmap('ss');
+unmap('sh');
 
 // Chrome URLs
 unmap(';j');
