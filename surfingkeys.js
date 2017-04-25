@@ -22,8 +22,7 @@ unmap('gf');
 map('cu', 'cf');
 unmap('cf');
 
-// Search selected
-vmapkey('s', 'sg');
+map('cc', 'p'); // 'paste' = open link from clipboard
 
 // More natural previous/back navigation
 unmap('>>');
@@ -83,6 +82,9 @@ unmap('sb');
 unmap('sw');
 unmap('ss');
 unmap('sh');
+
+// Clipboard
+unmap(';p');
 
 // Chrome URLs
 unmap(';j');
