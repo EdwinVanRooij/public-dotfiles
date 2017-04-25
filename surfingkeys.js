@@ -90,6 +90,21 @@ unmap('yf');
 unmap('yf');
 unmap('yp');
 
+// Omnibar
+unmap('go');
+unmap('ab');
+unmap('ob');
+unmap('ow');
+unmap('H');
+unmap('<Ctrl-d>');
+unmap('<Ctrl-i>');
+unmap('<Ctrl-.>');
+unmap('<Ctrl-,>');
+unmap('<Ctrl-c>');
+unmap('<Ctrl-D>');
+unmap('<Ctrl-n>');
+unmap('<Ctrl-p>');
+
 // Chrome URLs
 unmap(';j');
 unmap('si');
