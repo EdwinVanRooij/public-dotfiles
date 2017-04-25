@@ -53,7 +53,7 @@ unmap('D');
 map('<Space>', '/');
 
 // Exceptions
-unmap('jk', 
+// unmap('jk', 
 
 
 
