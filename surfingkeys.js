@@ -82,5 +82,3 @@ iunmap('<Alt-f>');
 iunmap('<Alt-w>');
 iunmap('<Alt-d>');
 iunmap("<Ctrl-'>");
-imapkey('nh', '<Esc>');
-
