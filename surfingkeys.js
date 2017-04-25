@@ -51,6 +51,17 @@ unmap('sql');
 // Mouse click
 unmap(';m');
 
+// Tabs
+unmap('g0');
+unmap('g$');
+unmap('gx0');
+unmap('gxt');
+unmap('gxT');
+unmap('gx$');
+unmap('on');
+unmap('on');
+unmap('W');
+
 // Chrome URLs
 unmap(';j');
 unmap('si');
@@ -70,7 +81,6 @@ unmap('spc');
 unmap('spi');
 unmap('spd');
 unmap('sfr');
-
 
 // Misc
 unmap(';q');
