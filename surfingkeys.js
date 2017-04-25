@@ -85,6 +85,10 @@ unmap('sh');
 
 // Clipboard
 unmap(';p');
+unmap('yl');
+unmap('yf');
+unmap('yf');
+unmap('yp');
 
 // Chrome URLs
 unmap(';j');
