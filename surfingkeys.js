@@ -51,7 +51,7 @@ map('l', 'D');
 unmap('D');
 
 // Search with space
-map('<Space>', '/');
+map('<Space><Space>', '/');
 
 
 
