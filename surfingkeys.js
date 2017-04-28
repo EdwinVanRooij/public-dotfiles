@@ -1,4 +1,5 @@
 // --- General settings ---
+// todo: make a 'cu' for q (image click), open in non-active new tab
 
 settings.hintAlign = "left";
 settings.startToShowEmoji = 1;
