@@ -57,6 +57,7 @@ map('<Space>', '/');
 
 // --- Exceptions ---
 // todo: 9gag jk movement
+// todo; make shift+enter in t google for result instead of selected
 
 
 // --- Unmap unused commands to prevent confusion and noise ---
