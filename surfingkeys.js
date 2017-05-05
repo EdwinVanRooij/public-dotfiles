@@ -43,8 +43,8 @@ unmap(']]');
 map('<', 'E');
 map('>', 'R');
 
-map('J', 'e');
-map('K', 'd');
+map('J', 'd');
+map('K', 'e');
 
 // Tab history management
 map('h', 'S');
