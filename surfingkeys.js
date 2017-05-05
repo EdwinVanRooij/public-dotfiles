@@ -40,8 +40,11 @@ unmap('[[');
 unmap(']]');
 
 // More confortable tab movement
-map('J', 'E');
-map('K', 'R');
+map('<', 'E');
+map('>', 'R');
+
+map('J', 'e');
+map('K', 'd');
 
 // Tab history management
 map('h', 'S');
