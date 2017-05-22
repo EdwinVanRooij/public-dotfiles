@@ -34,7 +34,7 @@ map('h', 'S');
 map('l', 'D');
 
 // Search with space
-map('<Space><Space>', '/');
+map('S', '/');
 
 
 
