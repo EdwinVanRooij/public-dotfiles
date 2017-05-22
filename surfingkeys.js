@@ -23,6 +23,7 @@ map('gu', 'U');
 map('gu', 'gf');
 
 map('cu', 'cf');
+unmap('p'); // 'paste' = open link from clipboard
 map('cc', 'p'); // 'paste' = open link from clipboard
 
 // More natural previous/back navigation
