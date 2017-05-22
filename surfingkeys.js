@@ -15,6 +15,10 @@ aceVimMap('<Space>c', 'ciw', 'normal');
 aceVimMap('H', '0', 'normal');
 aceVimMap('L', '$', 'normal');
 
+// Zoom options
+map('-', 'zo');
+map('+', 'zi');
+
 // Open links
 map('u', 'f');
 map('U', 'af');
@@ -22,7 +26,7 @@ map('U', 'af');
 map('Y', 'yy');
 map('p', 'cc'); // 'paste' = open link from clipboard
 
-// More confortable tab movement
+// Tab movement
 map('<', 'E');
 map('>', 'R');
 
