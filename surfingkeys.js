@@ -19,12 +19,7 @@ aceVimMap('L', '$', 'normal');
 map('u', 'f');
 map('U', 'af');
 
-map('gu', 'U');
-map('gu', 'gf');
-
-map('cu', 'cf');
-unmap('p'); // 'paste' = open link from clipboard
-map('cc', 'p'); // 'paste' = open link from clipboard
+map('p', 'cc'); // 'paste' = open link from clipboard
 
 // More natural previous/back navigation
 map('>', ']]');
