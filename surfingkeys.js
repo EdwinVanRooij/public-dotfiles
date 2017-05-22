@@ -19,11 +19,8 @@ aceVimMap('L', '$', 'normal');
 map('u', 'f');
 map('U', 'af');
 
+map('Y', 'yy');
 map('p', 'cc'); // 'paste' = open link from clipboard
-
-// More natural previous/back navigation
-map('>', ']]');
-map('<', '[[');
 
 // More confortable tab movement
 map('<', 'E');
