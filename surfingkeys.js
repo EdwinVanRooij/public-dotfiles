@@ -15,6 +15,9 @@ aceVimMap('<Space>c', 'ciw', 'normal');
 aceVimMap('H', '0', 'normal');
 aceVimMap('L', '$', 'normal');
 
+vmap('L', '$');
+vmap('H', '^');
+
 // Zoom options
 map('-', 'zo');
 map('+', 'zi');
