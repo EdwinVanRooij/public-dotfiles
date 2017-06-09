@@ -15,6 +15,12 @@ aceVimMap('<Space>c', 'ciw', 'normal');
 aceVimMap('H', '0', 'normal');
 aceVimMap('L', '$', 'normal');
 
+// Tab deletion
+map('gxh', 'gxt');
+map('gxl', 'gxT');
+
+map('gxH', 'gx0');
+map('gxL', 'gx$');
 
 // Zoom options
 map('-', 'zo');
