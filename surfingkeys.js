@@ -22,8 +22,8 @@ map('+', 'zi');
 
 // Open links
 map('u', 'f');
-map('U', 'af');
 map('gu', 'af');
+map('U', 'gf');
 
 map('Y', 'yy');
 map('p', 'cc'); // 'paste' = open link from clipboard
