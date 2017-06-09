@@ -15,8 +15,6 @@ aceVimMap('<Space>c', 'ciw', 'normal');
 aceVimMap('H', '0', 'normal');
 aceVimMap('L', '$', 'normal');
 
-vmap('L', '$');
-vmap('H', '^');
 
 // Zoom options
 map('-', 'zo');
@@ -25,6 +23,7 @@ map('+', 'zi');
 // Open links
 map('u', 'f');
 map('U', 'af');
+map('gu', 'af');
 
 map('Y', 'yy');
 map('p', 'cc'); // 'paste' = open link from clipboard
