@@ -16,8 +16,11 @@ aceVimMap('H', '0', 'normal');
 aceVimMap('L', '$', 'normal');
 
 // Tab deletion
-map('gxh', 'gxt');
-map('gxl', 'gxT');
+unmap('gd');
+map('gtd', 'gd');
+
+map('gdh', 'gxt');
+map('gdl', 'gxT');
 
 map('gxH', 'gx0');
 map('gxL', 'gx$');
