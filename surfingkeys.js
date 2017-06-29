@@ -24,8 +24,8 @@ map('gtd', 'gd');
 map('gdh', 'gxt');
 map('gdl', 'gxT');
 
-map('gxH', 'gx0');
-map('gxL', 'gx$');
+map('gdH', 'gx0');
+map('gdL', 'gx$');
 
 // Zoom options
 map('-', 'zo');
