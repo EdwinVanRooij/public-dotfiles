@@ -15,13 +15,23 @@ aceVimMap('<Space>c', 'ciw', 'normal');
 aceVimMap('H', '0', 'normal');
 aceVimMap('L', '$', 'normal');
 
+// Tab deletion
+unmap('gd');
+map('gtd', 'gd');
+
+map('gdh', 'gxt');
+map('gdl', 'gxT');
+
+map('gdH', 'gx0');
+map('gdL', 'gx$');
+
 // Zoom options
 map('-', 'zo');
 map('+', 'zi');
 
 // Open links
 map('u', 'f');
-//map('U', 'af');
+map('gu', 'af');
 map('U', 'gf');
 
 map('Y', 'yy');
