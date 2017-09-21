@@ -7,6 +7,8 @@ settings.scrollStepSize = 120; // faster 'jk' scrolling
 Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
 
 iunmap(":");
+iunmap("Y");
+iunmap("M");
 
 // ================ Own mappings ================
 
