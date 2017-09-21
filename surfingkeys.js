@@ -7,8 +7,6 @@ settings.scrollStepSize = 120; // faster 'jk' scrolling
 Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
 
 iunmap(":");
-iunmap("Y");
-iunmap("M");
 
 // ================ Own mappings ================
 
@@ -36,7 +34,7 @@ map('u', 'f');
 map('gu', 'af');
 map('U', 'gf');
 
-map('Y', 'yy');
+// map('Y', 'yy');
 map('p', 'cc'); // 'paste' = open link from clipboard
 
 // Tab movement
@@ -58,3 +56,7 @@ map('S', '/');
 // ================ Exceptions ================
 // todo: 9gag jk movement
 // todo; make shift+enter in t google for result instead of selected
+//
+iunmap("Y");
+iunmap("M");
+
