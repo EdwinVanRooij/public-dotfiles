@@ -30,6 +30,4 @@ map('K', 'e');
 map('h', 'S');
 map('l', 'D');
 
-map('S', '/');
-
-map('.', 'r');
+unmap('r');
