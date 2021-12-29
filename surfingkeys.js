@@ -4,30 +4,30 @@
 settings.hintAlign = "left";
 settings.startToShowEmoji = 1;
 settings.scrollStepSize = 120; // faster 'jk' scrolling
-Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
+api.Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
 
-iunmap(":");
+api.iunmap(":");
 
 // ================ Own mappings ================
 
 // Tab deletion
-map('-', 'zo');
-map('+', 'zi');
+api.map('-', 'zo');
+api.map('+', 'zi');
 
 // Open links
-map('u', 'f');
-map('U', 'gf');
+api.map('u', 'f');
+api.map('U', 'gf');
 
-map('p', 'cc'); // 'paste' = open link from clipboard
+api.map('p', 'cc'); // 'paste' = open link from clipboard
 
-map('<', 'E');
-map('>', 'R');
+api.map('<', 'E');
+api.map('>', 'R');
 
-map('J', 'd');
-map('K', 'e');
+api.map('J', 'd');
+api.map('K', 'e');
 
 // Tab history management
-map('h', 'S');
-map('l', 'D');
+api.map('h', 'S');
+api.map('l', 'D');
 
-unmap('r');
+api.unmap('r');
