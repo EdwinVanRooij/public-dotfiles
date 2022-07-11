@@ -1,32 +1,49 @@
+const {
+    aceVimMap,
+    mapkey,
+    imap,
+    imapkey,
+    getClickableElements,
+    vmapkey,
+    map,
+    iunmap,
+    unmap,
+    unmapAllExcept,
+    vunmap,
+    cmap,
+    addSearchAlias,
+    removeSearchAlias,
+    tabOpenLink,
+    readText,
+    Clipboard,
+    Front,
+    Hints,
+    Visual,
+    RUNTIME
+} = api;
+
 // ================ General settings ================
 settings.hintAlign = "left";
 settings.startToShowEmoji = 1;
 settings.scrollStepSize = 120; // faster 'jk' scrolling
-api.Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
+Hints.characters = 'aoeuidhtnspyfgcrl'; // all Dvorak first and second row alphabetic characters
 
-api.iunmap(":");
+iunmap(":");
+unmap("/"); // quick search
+unmap('r');
 
 // ================ Own mappings ================
+map('u', 'f'); // open link
+map('U', 'gf'); // open link in new tab
 
-// Tab deletion
-api.map('-', 'zo');
-api.map('+', 'zi');
+map('p', 'cc'); // 'paste' = open link from clipboard
 
-// Open links
-api.map('u', 'f');
-api.map('U', 'gf');
+map('J', 'd'); // fast scroll down
+map('K', 'e'); // fast scroll up
 
-api.map('p', 'cc'); // 'paste' = open link from clipboard
+// --- Tabs
+map('h', 'S'); // previous tab
+map('l', 'D'); // next tab
 
-api.map('<', 'E');
-api.map('>', 'R');
-
-api.map('J', 'd');
-api.map('K', 'e');
-
-// Tab history management
-api.map('h', 'S');
-api.map('l', 'D');
-
-api.unmap('r');
-
+map('<', 'E'); // previous tab
+map('>', 'R'); // next tab
