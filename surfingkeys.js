@@ -1,7 +1,7 @@
 // ================ General settings ================
 settings.hintAlign = "left";
 settings.scrollStepSize = 120; // faster 'jk' scrolling
-api.Hints.setCharacters('aoeuidhtnspyfgcrl'); // all Dvorak first and second row alphabetic characters
+//api.Hints.setCharacters('aoeuidhtnspyfgcrl'); // all Dvorak first and second row alphabetic characters
 
 api.iunmap(":");
 api.unmap("/"); // quick search
